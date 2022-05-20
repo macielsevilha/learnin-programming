@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: monospace;
+        }
+        
+        .centro {}
+        
+        #corpo {
+            width: 100%;
+            max-width: 1284px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+        }
+        
+        #topo {}
+        
+        #topo nav ul li {
+            display: inline-block;
+            padding: 20px;
+        }
+        
+        #topo nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 20px
+        }
+        
+        #conteudo {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        #conteudo section h1 {
+            padding: 20px;
+            font-size: 23px;
+            color: rgb(19, 174, 212);
+        }
+        
+        #conteudo section article {
+            margin: 20px;
+        }
+        
+        #conteudo section article header h2 {
+            line-height: 30px;
+        }
+        
+        #conteudo section article header a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centro">
+        <header>
+            <div id="corpo">
+                <div id="topo">
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Sobre</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="conteudo">
+                {{area_dinamica}}
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
