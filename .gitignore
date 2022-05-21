@@ -1,0 +1,6 @@
+*.json
+*.exe
+*.phar
+*.lock
+
+
