@@ -5,6 +5,7 @@
       public function index() 
       {
         try {
+<<<<<<< HEAD
           
           $colecPostagens = Postagem::selecionaTodos();
 
@@ -20,6 +21,10 @@
           $conteudo = $template->render($parametros);
           echo $conteudo;
           
+=======
+          $colecPostagens = Postagem::selecionaTodos();
+
+>>>>>>> 1fa6d8a08cbaa393f9196ac9da77cfa19419c09b
         } catch (Exception $e) {
           echo $e->getMessage();
         }

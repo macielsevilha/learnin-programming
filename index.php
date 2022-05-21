@@ -9,8 +9,11 @@ require_once './app/controller/erroController.php';
 
 require_once './app/model/postagem.php';
 
+<<<<<<< HEAD
 require_once 'vendor/autoload.php';
 
+=======
+>>>>>>> 1fa6d8a08cbaa393f9196ac9da77cfa19419c09b
 $template = file_get_contents('app/template/estrutura.html');
 
 ob_start();
